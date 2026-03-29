@@ -2,6 +2,8 @@ MutantFinderStruc is a desktop application designed for researchers investigatin
 
 Installation instructions:
 
+Important note: has to be run on linux-64.
+
 1. download these files and extract as needed
 2. Open in VS code
 3. Open terminal in VS code(make sure conda in enabled)
