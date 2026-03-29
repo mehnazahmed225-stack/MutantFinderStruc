@@ -4,12 +4,11 @@ Installation instructions:
 
 Important note: has to be run on linux-64.
 
-1. download these files and extract as needed
+1. download the main file, MutantFinderStruc
 2. Open in VS code
-3. Open terminal in VS code(make sure conda in enabled)
-4. Enter command: conda env create -f environment.yml
-5. for pyrosetta seperately, use command:pip install pyrosetta --find-links https://west.rosettacommons.org/pyrosetta/quarterly/release
-6. Enter command: conda activate MutantFinderStruc
-7. Select MutantFinderStruc as interpreter for VS code.
-8. Run code to confirm if all libraries are installed
-9. To make code an app: pyinstaller MutantFinderStruc.py
+3. Make a new conda environment with python 3.9
+4. pip install matplotlib, pandas, Bio, mplcursor, pyinstaller, jupyter, seaborn, and any other libraries in the code.
+5. use command for pyrosetta: pip install pyrosetta --find-links https://west.rosettacommons.org/pyrosetta/quarterly/release
+6. Set the python for the new environment created as the interpreter.
+7. Run command: pyinstaller MutantFinderStruc.py.
+8. Use the testerpdb to check functionality. 
