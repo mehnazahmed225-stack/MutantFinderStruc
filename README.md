@@ -10,5 +10,5 @@ Important note: has to be run on linux-64.
 4. pip install matplotlib, pandas, Bio, mplcursor, pyinstaller, jupyter, seaborn, and any other libraries in the code.
 5. use command for pyrosetta: pip install pyrosetta --find-links https://west.rosettacommons.org/pyrosetta/quarterly/release
 6. Set the python for the new environment created as the interpreter.
-7. Run command: pyinstaller MutantFinderStruc.py.
+7. Run command: pyinstaller --onefile MutantFinderStruc.py
 8. Use the testerpdb to check functionality. 
