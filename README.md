@@ -47,6 +47,16 @@ Given a protein structure in PDB format, MutantFinderStruc:
 - Computes mutation-induced energy changes (ΔΔG).
 - Calculates backbone Cα RMSD values.
 
+#### Important Note on ΔΔG Values
+
+The output column is labeled `ddG` for consistency with common protein engineering terminology. However, the values reported by MutantFinderStruc are calculated as differences in Rosetta total energy scores between relaxed mutant and wild-type structures:
+
+ΔΔG = Rosetta Score(mutant) − Rosetta Score(wild type)
+
+These values are reported in Rosetta Energy Units (REU) rather than experimentally determined free energies (kcal/mol). Consequently, the reported values should be interpreted as relative energetic changes predicted by the Rosetta scoring function and not as true thermodynamic free-energy differences.
+
+Negative values generally indicate a more energetically favorable mutant within the Rosetta scoring framework, while positive values indicate a less favorable mutant. Experimental validation is recommended before drawing definitive conclusions regarding protein stability.
+
 ### Visualization
 
 - Interactive RMSD vs ΔΔG scatter plot.
