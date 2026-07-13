@@ -1,6 +1,6 @@
-# MutantFinderStruc
+# MutantFinder
 
-MutantFinderStruc is a desktop application for protein structure analysis and computational mutagenesis built using PyRosetta, BioPython, PySide6, and Matplotlib. The software enables users to analyze amino acid composition, perform saturation mutagenesis, estimate mutation-induced energetic changes, generate mutant structures, and visualize structural properties through interactive plots.
+MutantFinder is a desktop application for protein structure analysis and computational mutagenesis built using PyRosetta, BioPython, PySide6, and Matplotlib. The software enables users to analyze amino acid composition, perform saturation mutagenesis, estimate mutation-induced energetic changes, generate mutant structures, and visualize structural properties through interactive plots.
 
 ---
 
